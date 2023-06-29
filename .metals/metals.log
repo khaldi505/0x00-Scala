@@ -1,0 +1,373 @@
+2023.06.29 16:20:54 INFO  Started: Metals version 0.11.12 in workspace '/home/coco/Desktop/ScalaHome/0x00-Scala' for client Visual Studio Code 1.79.2.
+Jun 29, 2023 4:20:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 29, 2023 4:20:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 29, 2023 4:20:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/coco/Desktop/ScalaHome/0x00-Scala/.metals/metals (H2 2.1)
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.062s)
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 29, 2023 4:20:56 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.203s)
+2023.06.29 16:20:56 INFO  time: initialize in 1.7s
+2023.06.29 16:21:02 WARN  Build server is not auto-connectable.
+2023.06.29 16:21:02 WARN  no build tool detected in workspace '/home/coco/Desktop/ScalaHome/0x00-Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.29 16:21:02 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:21:44 INFO  no build target found for /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.29 16:22:24 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+Jun 29, 2023 4:22:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Jun 29, 2023 4:22:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2023.06.29 16:22:28 INFO  time: code lens generation in 1.15s
+2023.06.29 16:22:28 INFO  time: code lens generation in 2.41s
+2023.06.29 16:22:28 INFO  time: code lens generation in 2.92s
+2023.06.29 16:22:28 INFO  time: code lens generation in 2.08s
+2023.06.29 16:22:28 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:31 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:34 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:36 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:42 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:44 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:45 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:47 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:48 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:56 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:58 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:22:59 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:04 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:06 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:08 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+Jun 29, 2023 4:23:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 300
+2023.06.29 16:23:12 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:14 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:16 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:19 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:21 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:24 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:31 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/AdultOrMinor.scala
+2023.06.29 16:23:33 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/LeapYear.scala
+2023.06.29 16:23:35 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/NumberCompare.scala
+2023.06.29 16:23:37 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/PoN.scala
+2023.06.29 16:23:39 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/VowelOrConsonant.scala
+2023.06.29 16:23:48 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:50 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:52 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:23:55 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:01 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+Jun 29, 2023 4:24:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 497
+2023.06.29 16:24:09 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:11 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:24 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:26 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:30 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:32 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:41 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:45 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:52 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:24:58 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:25:03 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:25:05 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:25:12 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:25:13 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:25:15 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:25:20 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:25:26 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:25:58 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:26:02 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:26:06 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:26:10 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:26:30 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:26:32 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:26:36 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:26:37 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:28:04 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:28:09 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:28:11 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:28:14 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:28:15 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:28:38 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:28:45 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:29:48 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:30:57 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:30:59 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:31:08 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:31:18 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:31:27 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:31:29 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:31:31 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:31:34 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:50:57 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:51:01 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+Jun 29, 2023 4:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1457
+Jun 29, 2023 4:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1459
+2023.06.29 16:51:06 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:51:09 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:51:11 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:51:16 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:51:19 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:51:34 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:51:38 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:51:40 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:52:21 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:52:59 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+Jun 29, 2023 4:53:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1653
+2023.06.29 16:53:02 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:53:09 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+Jun 29, 2023 4:53:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1698
+2023.06.29 16:53:12 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:53:18 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:53:20 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:53:23 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/BiggerNumber.scala
+2023.06.29 16:57:01 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:05 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:24 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:37 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:43 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:45 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:47 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:49 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:52 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:55 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:57:58 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:58:05 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:58:10 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 4:58:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1967
+2023.06.29 16:58:13 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:58:42 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 4:58:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2031
+2023.06.29 16:58:48 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:58:53 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:58:55 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:58:59 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:59:04 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:59:08 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 16:59:09 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:01:22 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:03:28 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:03:31 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:03:33 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:03:36 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:03:42 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:03:43 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:03:56 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:04:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:96)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.06.29 17:04:02 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:04:12 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:04:18 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:04:19 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:05:17 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:05:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:96)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.06.29 17:05:39 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:05:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:96)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.06.29 17:05:42 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:05:45 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:06:06 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:06:48 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:06:49 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:06:54 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:06:56 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:06:57 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:07:18 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:07:25 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:07:32 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:07:37 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:07:40 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:07:47 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:07:55 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:02 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:03 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:08:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2869
+2023.06.29 17:08:11 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:16 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:16 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:37 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:39 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:42 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:45 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:50 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:52 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:55 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:08:56 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:09:00 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:09:03 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:09:06 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:09:10 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:09:19 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:09:37 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:09:39 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:10:02 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:10:04 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:10:06 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:10:07 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:10:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3208
+2023.06.29 17:10:08 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:10:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3221
+2023.06.29 17:10:57 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:10:59 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:11:07 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3262
+2023.06.29 17:11:26 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:11:44 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:11:55 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:11:59 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:05 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:10 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:13 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:12:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3414
+2023.06.29 17:12:23 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:28 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:31 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:34 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:36 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:36 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:12:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3532
+2023.06.29 17:12:49 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+Jun 29, 2023 5:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3576
+2023.06.29 17:12:54 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:12:59 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:13:01 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:13:04 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:13:15 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:13:54 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:13:56 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:14:00 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:14:03 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:14:11 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:14:13 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:14:19 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:14:28 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:16:12 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:16:17 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:16:19 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:16:22 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:16:22 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:16:25 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:17:15 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:17:23 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:17:32 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Test.scala
+2023.06.29 17:18:30 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/CharOrNum.scala
+2023.06.29 17:18:36 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/CharOrNum.scala
+2023.06.29 17:18:38 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/CharOrNum.scala
+Jun 29, 2023 5:18:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4085
+2023.06.29 17:18:39 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/CharOrNum.scala
+2023.06.29 17:18:46 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/CharOrNum.scala
+2023.06.29 17:18:48 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/CharOrNum.scala
+2023.06.29 17:18:51 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/CharOrNum.scala
+2023.06.29 17:19:05 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:19:16 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:19:17 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:19:19 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:16 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:27 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:29 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:32 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:35 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:38 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:41 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:43 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:47 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:49 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:25:54 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:01 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:06 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:11 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:14 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:22 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:26 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:30 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:31 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:35 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:37 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:48 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:26:55 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:27:01 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:27:20 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:27:22 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:27:25 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:27:32 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:02 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:05 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:09 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:12 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:14 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:20 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:25 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:32 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:33 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:34 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:37 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:38 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:28:39 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:29:12 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:29:14 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:29:16 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
+2023.06.29 17:29:17 WARN  no build target for: /home/coco/Desktop/ScalaHome/0x00-Scala/Grade.scala
